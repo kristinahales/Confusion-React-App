@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import bootstrap css first so that your custom css will override any bootstrap styling you don't want.
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
